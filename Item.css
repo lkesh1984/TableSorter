@@ -1,0 +1,917 @@
+body,
+#footer {	
+	margin-top: 0;
+}
+#footer {
+	background-color: #f7f7f7;
+}
+#mainsi {
+	background-color: #fff;
+	padding-bottom: 80px;
+}
+.pull-left {
+    float: left;
+}
+ul.bulleted {
+    list-style-type: disc;
+}
+ul.bulleted > li {
+    margin-bottom: 5px;
+}
+ul.home-links {
+	margin: 0 0 30px 0;
+	overflow: hidden;
+}
+ul.home-links li {
+	float: left;
+	text-align: center;
+	width: 140px;
+	margin-right: 20px;
+	padding: 0;
+	border: 1px solid #cdd0d5;
+	   	    border-radius: 5px;
+	-webkit-border-radius: 5px;
+	        box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+	   -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+}
+ul.home-links li a {
+	display: block;
+	color: #67747C;
+	text-decoration: none;
+}
+
+/* @group 32px */
+
+ul.home-links li a span {
+	display: table;
+	width: 32px;
+	height: 32px;
+	margin: 20px auto 15px auto;
+	line-height: 16px;
+	vertical-align: text-top;
+	background-image: url("../img/workflow-sprite.png");
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+}
+ul.home-links .charts span {background-position: 0 0;}
+ul.home-links .charts:hover span {background-position: 0 -32px;}
+
+ul.home-links .data-dump span {background-position: -32px 0;}
+ul.home-links .data-dump:hover span {background-position: -32px -32px;}
+
+ul.home-links .logging span {background-position: -64px 0;}
+ul.home-links .logging:hover span {background-position: -64px -32px;}
+
+ul.home-links .log-file-viewer span {background-position: -96px 0;}
+ul.home-links .log-file-viewer:hover span {background-position: -96px -32px;}
+
+ul.home-links .process-control span {background-position: -128px 0;}
+ul.home-links .process-control:hover span {background-position: -128px -32px;}
+
+ul.home-links .background-tasks span {background-position: -160px 0;}
+ul.home-links .background-tasks:hover span {background-position: -160px -32px;}
+
+ul.home-links .admin-commands span {background-position: -192px 0;}
+ul.home-links .admin-commands:hover span {background-position: -192px -32px;}
+
+ul.home-links .configure-options span {background-position: -224px 0;}
+ul.home-links .configure-options:hover span {background-position: -224px -32px;}
+
+ul.home-links .scheduler span {background-position: -256px 0;}
+ul.home-links .scheduler:hover span {background-position: -256px -32px;}
+
+ul.home-links .extensions span {background-position: -288px 0;}
+ul.home-links .extensions:hover span {background-position: -288px -32px;}
+
+ul.home-links .database-status span {background-position: -320px 0;}
+ul.home-links .database-status:hover span {background-position: -320px -32px;}
+
+ul.home-links .licenses span {background-position: -352px 0;}
+ul.home-links .licenses:hover span {background-position: -352px -32px;}
+
+/* @end */
+
+/* @group 64px */
+
+ul.home-links-64px li a span {
+	width: 64px;
+	height: 64px;
+	margin: 20px auto 15px auto;
+	line-height: 32px;
+	background-image: url("../img/workflow-sprite@64px.png");
+}
+
+ul.home-links .charts span {background-position: 0 0;}
+ul.home-links .charts:hover span {background-position: 0 -64px;}
+
+ul.home-links .data-dump span {background-position: -64px 0;}
+ul.home-links .data-dump:hover span {background-position: -64px -64px;}
+
+ul.home-links .logging span {background-position: -128px 0;}
+ul.home-links .logging:hover span {background-position: -128px -64px;}
+
+ul.home-links .log-file-viewer span {background-position: -192px 0;}
+ul.home-links .log-file-viewer:hover span {background-position: -192px -64px;}
+
+ul.home-links .process-control span {background-position: -256px 0;}
+ul.home-links .process-control:hover span {background-position: -256px -64px;}
+
+ul.home-links .background-tasks span {background-position: -320px 0;}
+ul.home-links .background-tasks:hover span {background-position: -320px -64px;}
+
+ul.home-links .admin-commands span {background-position: -384px 0;}
+ul.home-links .admin-commands:hover span {background-position: -384px -64px;}
+
+ul.home-links .configure-options span {background-position: -448px 0;}
+ul.home-links .configure-options:hover span {background-position: -448px -64px;}
+
+ul.home-links .scheduler span {background-position: -512px 0;}
+ul.home-links .scheduler:hover span {background-position: -512px -64px;}
+
+ul.home-links .extensions span {background-position: -576px 0;}
+ul.home-links .extensions:hover span {background-position: -576px -64px;}
+
+ul.home-links .database-status span {background-position: -640px 0;}
+ul.home-links .database-status:hover span {background-position: -640px -64px;}
+
+ul.home-links .licenses span {background-position: -704px 0;}
+ul.home-links .licenses:hover span {background-position: -704px -64px;}
+
+ul.home-links .farm-config span {background-position: -768px 0;}
+ul.home-links .farm-config:hover span {background-position: -768px -64px;}
+
+ul.home-links .config-options span {background-position: -832px 0;}
+ul.home-links .config-options:hover span {background-position: -832px -64px;}
+
+/* @end */
+
+ul.home-links li h3 {
+	display: table-cell;
+	vertical-align: middle;
+	height: 30px;
+	text-align: center;
+	line-height: 1.2;
+	width: 140px;
+	color: #67747C;
+	margin: 0;
+	padding: 10px;
+	background-color: #fff;
+}
+ul.home-links li:hover {
+	background-color: #785988;
+	border-color: #785988;
+}
+ul.home-links li a:hover h3 {
+	color: #785988;
+}
+ul.home-links li,
+ul.home-links li a,
+ul.home-links li a h3 {
+  -webkit-transition: all 0.15s linear;
+     -moz-transition: all 0.15s linear;
+       -o-transition: all 0.15s linear;
+          transition: all 0.15s linear;
+}
+
+
+.row-fluid.spacer {
+    height: 100px;
+}
+
+.table .table-sort th {
+    padding: 0;
+}
+.table .table-sort th a {
+    display: block;
+    position: relative;
+    padding: 8px;
+}
+.table .table-sort th a:after {
+    content: '';
+    position: absolute;
+    top: 12px;
+    right: 7px;
+    width: 0; 
+    height: 0; 
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #ccc;
+}
+.table .table-sort th:hover a:after,
+.table .table-sort th.sortdown a:after {
+    border-top-color: #777;
+}
+.table .table-sort th.sortup a:after {
+    border-bottom: 4px solid #777;
+    border-top: 0 none;
+}
+.table .table-sort th.sortdown a,
+.table .table-sort th.sortup a {
+    color: #777;
+    font-weight: bold;
+}
+.table .table-sort th.no-sort {
+    padding: 8px;
+}
+.table .table-sort th.no-sort a:after {
+    display: none;
+}
+
+.table .text-right {
+    text-align: right;
+    vertical-align: bottom;
+    padding-bottom: 15px;
+}
+.table-menu th a {
+  color: #0066AA;
+  text-transform: none;
+  padding-left: 5px;
+  font-size: 13px;
+}
+.table-menu th h2 {
+	float: left;
+  text-transform: none;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+.table-menu th .links {
+	float: right;
+}
+.table-menu th .links ul li{
+	float: right;
+	padding-top: 6px;
+}
+.table-menu th .links ul li::after {
+	content: "\2022";
+	padding: 0 1px 0 5px;
+}
+.table-menu th .links ul li:first-child::after {
+	content: "";
+}
+.table-menu th .display select {
+	margin-top: 5px;
+}
+.display-inline {
+    display: inline;
+}
+
+.tooltip-help {
+	color: #99a5aa !important;
+	letter-spacing: 1px;
+	font-size: 11px;
+	margin-left: 3px;
+	margin-top: -2px;
+	text-decoration: none !important;
+}
+h2.compact {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	line-height: 0;
+}
+.font-white {
+    color: white;
+}
+.font-white:visited {
+    color: white;
+}
+.font-white:active {
+    color: white;
+}
+.font-white:hover {
+    color: white;
+}
+.font-white:focus {
+    color: white;
+}
+.font-red {
+    color: red;
+}
+.font-red:visited {
+    color: red;
+}
+.font-red:active {
+    color: red;
+}
+.font-red:hover {
+    color: red;
+}
+.font-red:focus {
+    color: red;
+}
+
+.form-textandbutton > button {
+    float: none;
+    margin: 0 0 7px 7px;
+}
+.form-actions {
+	padding-left: 0;
+}
+.settings-info label > input[type="radio"], 
+.settings-info label > input[type="checkbox"] {
+    margin-bottom: 5px;
+	margin-top: 0;
+}
+
+ul.inline-list > li,
+ul.date-group > li {
+    display: inline-block;
+}
+ul.inline-list > li:not(:first-child),
+ul.date-group > li:not(:first-child) {
+    margin-left: 15px;
+}
+
+.form-horizontal li .help-block {
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 16px;
+}
+.table-header label, .control-label {
+  color: #99a5aa;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+label.control-label.secondary-label {
+    width: auto;
+}
+
+.table-header td {
+	border-top: 0 none;
+}
+.checkbox-group label {
+    margin: 0 20px 0 0;
+}
+.control-group .controls ul {
+    margin-left: 0;
+}
+
+.control-group .controls ul.checkbox-group {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.control-group .controls ul.checkbox-group:not(.inline-list) li {
+    padding-bottom: 10px;
+}
+.settings-info .form-horizontal .controls .plain-text {
+    padding-top: 5px;
+    font-size: 12px;
+    line-height: 5px;
+}
+.settings-info .form-horizontal .controls .plain-text:first-child {
+    margin-top: 7px;
+}
+.settings-info p label {
+	padding-left: 180px;
+}
+.tooltip .interactive {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tooltip .interactive a {
+    color: white;
+    text-decoration: underline;
+}
+
+.tooltip .interactive .copy-link-parent {
+    text-align: right;
+}
+.js-admincommands-operation-info:hover {
+	color: #67747C !important;
+}
+.js-initial-hide {
+    display: none;
+}
+
+#js-terminal {
+    height: 300px;
+    width: 90%;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    overflow:auto;
+}
+
+#js-label-moreoptions > label {
+    text-align: left;
+    text-transform: none;
+}
+.settings-info #js-label-moreoptions > label a {
+    float: left;
+}
+#js-label-moreoptions > .controls {
+    margin-left: 80px;
+}
+#js-label-moreoptions > .controls > .line {
+    border-bottom: 1px solid #cccccc;
+    margin-top: 14px;
+}
+.related {
+	float: right;
+}
+#js-admincommands-relatedlinks {
+    float: right;
+}
+#js-admincommands-relatedlinks > li {
+    display: inline;
+}
+.related-links {
+	font-size: 14px;
+}
+.related-links a {
+  	color: #0066AA !important;
+	font-size: 13px !important;
+}
+#js-admincommands-relatedlinks > li:before {
+    content: "\2022";
+    margin: 0 5px;
+    color: #303039;
+}
+#js-admincommands-relatedlinks > li:first-child:before {
+    content: "Related: ";
+}
+.primary-actions {
+    margin-top: -10px;
+}
+
+.list-of-lists > ul {
+    margin: 0 0 30px 0;
+}
+
+.list-of-lists > ul > li > ul {
+    margin-left: 0;
+}
+
+.list-of-lists > ul > li > ul > li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.workflow-brand img,
+.workflow-brand .home-dropdown {
+	float: left;
+	margin-right: 20px;
+}
+
+.js-button-disabled {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.home-dropdown ul {
+	width: 360px;
+}
+.home-dropdown ul li a {
+  color: #0066AA;
+}
+.home-dropdown ul div {
+	float: left;
+	padding-bottom: 5px;
+}
+.home-dropdown .dropdown-title {
+	padding: 5px 15px;
+	font-weight: bold;
+	color: #444;
+}
+.home-dropdown .btn-group a.btn-action,
+.table-dropdown .btn-group a.btn-action {
+	width: 15px;
+	height: 15px !important;
+	background:transparent url("../img/button-sprite.png") no-repeat 0px -60px;
+	padding: 0 !important;
+}
+.home-dropdown .btn-group a.btn-action:hover,
+.home-dropdown .btn-group.open a.btn-action ,
+.home-dropdown .btn-group.open a.btn-action:hover, 
+.table-dropdown .btn-group a.btn-action:hover {
+	background-position: -15px -60px;
+}
+.table-dropdown .btn-group.open a.btn-action ,
+.table-dropdown .btn-group.open a.btn-action:hover {
+	background: transparent url("../img/button-sprite.png") no-repeat -30px -60px;
+}
+.table-scheduler .table-dropdown .btn-group {
+	float: right;
+}
+
+.chart {
+	padding: 10px 15px;
+	border: 1px solid #cdd0d5;
+	   	    border-radius: 5px;
+	-webkit-border-radius: 5px;
+	        box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+	   -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+}
+.chart .chart-content {
+	min-height: 300px;
+}
+.chart p {
+	font-size: 11px;
+	text-align: right;
+	margin: 0;
+	color: #99a5aa;
+}
+.table td .edit {
+	opacity: 0;
+	float: right;
+  -webkit-transition: opacity 0.15s linear .15s;
+     -moz-transition: opacity 0.15s linear .15s;
+       -o-transition: opacity 0.15s linear .15s;
+          transition: opacity 0.15s linear .15s;
+}
+.table td:hover .edit {
+	opacity: 0.5;
+}
+.table td:hover .edit:hover {
+	opacity: 1;
+}
+.table-addedit-form td input,
+.table-addedit-form td select,
+.table-addedit-form td .btn,
+.table-addedit-form td .checkbox-group,
+.table-addedit-form .update-actions .btn,
+.table-addedit-form .checkbox-group {
+	float: left;
+}
+.table-addedit-form td input,
+.table-addedit-form td select,
+.table-addedit-form td .checkbox-group,
+.table-addedit-form .checkbox-group {
+    margin: 0;
+}
+
+.add-actions .btn,
+.update-actions .btn {
+    margin-right: 10px;
+}
+
+.table-addedit-form td .add-actions,
+.table-addedit-form .update-actions {
+	display: inline-block;
+	overflow: hidden;
+	float: right;
+}
+.table-addedit-form td .add-actions .btn,
+.table-addedit-form .update-actions .btn {
+    min-width: 60px;
+}
+table .pull-right .update-actions span {
+    padding: 0 0 0 15px;
+}
+.table-addedit-form td .checkbox-group li {
+	padding-top: 8px;
+}
+.table-addedit-form td .checkbox-group li label span {
+	padding-left: 5px;
+}
+.process-status [class^="icon-"],
+.process-status [class*=" icon-"] {
+	opacity: .5;
+}
+.usage-table {
+	margin-bottom: 20px;
+}
+.usage-table td {
+	padding: 10px 0;
+}
+.usage-table .usage-bar td {
+	text-align: center;
+	color: #fff;
+}
+.usage-table td ul {
+	float: left;
+	padding: 0;
+	margin: 0;
+	font-size: 13px;
+}
+.usage-table td ul li {
+	display: inline-block;
+	margin-right: 15px;
+}
+.usage-table td ul li a {
+	padding-left: 20px;
+	position: relative;
+}
+.usage-table td ul li a span {
+	position: absolute;
+	left: 0;
+	display: inline-block;
+	width: 13px;
+	height: 13px;
+	margin-top: 2px;
+}
+.usage-table td div p {
+	margin: 0;
+}
+.configuration-data {
+	background-color: #2b7a73;
+	cursor:pointer;
+}
+.solution-definition-data {
+	background-color: #0b4373; 
+	cursor:pointer;
+}                	               	
+.process-transaction-data {
+	background-color: #688533;  
+	cursor:pointer;
+}
+
+.license-key .tooltip .tooltip-inner {
+    line-height: 18px;
+    padding: 10px;
+    word-wrap: break-word;
+}
+
+.license-key .tooltip .tooltip-inner .copy-link-parent {
+    display: none;
+    padding-top: 10px;
+}
+
+.license-key .tooltip.show-copy-link .tooltip-inner .copy-link-parent {
+    display: block;
+}
+
+#js-modal-copymenu .js-link-copy-target {
+    word-wrap: break-word;
+}
+
+/* @group FileDrop.js */
+
+.js-filedrop-target {
+    margin-top: 3px;
+}
+
+@keyframes progress {
+    from {
+        background-position: left top;
+    }
+    to {
+        background-position: 30px top;
+    }
+}
+@-moz-keyframes progress {
+    from {
+        background-position: left top;
+    }
+    to {
+        background-position: 30px top;
+    }
+}
+@-webkit-keyframes progress {
+    from {
+        background-position: left top;
+    }
+    to {
+        background-position: 30px top;
+    }
+}
+@-o-keyframes progress {
+    from {
+        background-position: left top;
+    }
+    to {
+        background-position: 30px top;
+    }
+}
+
+.js-filedrop-progressbar {
+    animation: progress .7s linear infinite;
+    -moz-animation: progress .7s linear infinite;
+    -webkit-animation: progress .7s linear infinite;
+    -o-animation: progress .7s linear infinite;
+    display: block;
+    width: 0.00000000001%;
+    height: 1em;
+    background: url(http://filedropjs.org/media/progress.gif);
+}
+
+/* @end */
+
+
+
+#js-administration-pluginnew-parameters.js-form-editmode .js-administration-pluginnew-parameters-action-addrow,
+#js-administration-pluginnew-parameters .js-administration-pluginnew-parameters-action-editrow {
+    display: none;
+}
+#js-administration-pluginnew-parameters .js-administration-pluginnew-parameters-action-addrow,
+#js-administration-pluginnew-parameters.js-form-editmode .js-administration-pluginnew-parameters-action-editrow {
+    display: block;
+}
+
+td .contain-long-word {
+    width: 200px;
+    word-wrap: break-word;
+    line-height: 18px;
+}
+
+.top-line,
+.form-horizontal .form-actions.top-line {
+    border-top: 1px solid #ccc;
+    padding: 20px 0;
+}
+
+#js-label-moreoptions #js-container-moreoptions {
+    margin-top: 20px;
+}
+
+/* @group Dropdown Tree Menu */
+
+.dropdown-tree-menu {
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    min-width: 250px;
+    max-width: 500px;
+    
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.keymainpage-dropdown {
+    min-width: 300px;
+
+}
+.dropdown-tree-menu.dropdown-tree-removewidthlimits {
+    margin-top: 7px;
+    min-width: 0;
+    max-width: none;
+}
+.dropdown-tree-menu .dropdown {
+    border-bottom: 1px solid #ddd;
+    height: 26px;
+}
+.dropdown-tree-menu .dropdown a {
+    padding: 5px 10px;
+    display: block;
+    text-decoration: none;
+    overflow: hidden;
+    white-space: normal;
+}
+.dropdown-tree-menu .dropdown a.dropdown-toggle {
+    padding: 7px 15px 3px 10px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.dropdown-tree-menu .dropdown-toggle .dropdown-toggle-symbol {
+    position: absolute;
+    background-image: url("../img/sprite.png");
+    background-position: -32px -36px;
+    content: "";
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    vertical-align: middle;
+    margin-top: -3px;
+    margin-left: 5px;
+    right: 0;
+}
+.dropdown-tree-menu .dropdown.open .dropdown-toggle {
+    background-color: #f7f7f7;
+    color: #444;
+}
+.dropdown-tree-menu .dropdown-menu {
+    background-color: #fff;
+    margin-left: -1px;
+    padding: 5px 0;
+    max-height: 300px;
+    overflow-x: auto;
+    overflow-y: scroll;
+}
+.dropdown-tree-menu .dropdown-menu li {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.dropdown-tree-menu .dropdown-menu a.btn {
+    display: block;
+    float: none;
+    margin: 0;
+    padding-left: 0;
+}  
+.dropdown-tree-menu .dropdown-menu a span {
+    padding-left: 0px;
+} 
+.dropdown-tree-menu .dropdown-menu a.btn span {
+    padding-left: 10px;
+}  
+.dropdown-tree-menu ul {
+    list-style: none outside none;
+    margin: 0;
+}
+.dropdown-tree-menu > ul {
+    padding: 0 0 10px 0;
+}
+.dropdown-tree-menu li a {
+    line-height: 25px;
+}
+.dropdown-tree-menu ul li a {
+    color: #3B4C56;
+    display: block;
+    font-weight: normal;
+    position: relative;
+    text-decoration: none;
+}
+.dropdown-tree-menu li a {
+    padding: 5px 0 5px 10px;
+    line-height: 15px;
+}
+.dropdown-tree-menu li a span {
+    padding: 0 0 0 5px;
+}
+.dropdown-tree-menu li a .plus-minus {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    display: block;
+    right: 10px;
+    top: 8px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+.dropdown-tree-menu li a .plus-minus:hover {
+    opacity: 1;
+}
+.dropdown-tree-menu li.parent.active {
+    background-color: #f4f4f4;
+}
+.dropdown-tree-menu ul li.active > a:before {
+    background-position: -16px -36px;
+}
+.dropdown-tree-menu ul li ul {
+    overflow: hidden;
+    margin-left: 15px;
+}
+.dropdown-tree-menu ul li ul li a {
+    padding-left: 36px;
+}
+.dropdown-tree-menu ul li ul li ul li a {
+    padding-left: 62px;
+}
+.dropdown-tree-menu ul li ul li ul li ul li  a {
+    padding-left: 88px;
+}
+.dropdown-tree-menu ul li ul li {
+    position: relative;
+}
+.dropdown-tree-menu ul.dropdown-menu li a.active {
+    color: #fff;
+    background-color: #444;
+}
+
+.dropdown-tree-menu ul.dropdown-menu li a.js-menu-inactive {
+    color: #aaa;
+    font-style: italic;
+}
+.dropdown-tree-menu ul.dropdown-menu li a.js-menu-inactive:hover {
+    background-color: transparent;
+    font-weight: normal;
+}
+
+/* @end */
+
+
+
+
+
+/* @group Kendo UI File Upload Overrides */
+
+#mainsi .k-upload-status.k-upload-status-total,
+#mainsi .k-icon.k-warning {
+    display: none;
+}
+
+#mainsi .k-upload-files a.btn,
+#mainsi .k-upload-files button,
+#mainsi .k-upload-files input.btn {
+    float: none;
+}
+
+#mainsi .k-upload-files li {
+    line-height: 2.66;
+}
+
+/* @end */

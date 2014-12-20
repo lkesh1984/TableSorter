@@ -1,0 +1,90 @@
+<html>
+<head>
+<Title>Demo</Title>
+<link href="item.css" rel="stylesheet" />
+<link href="item1.css" rel="stylesheet" />
+</head>
+<body>
+<div>
+                    <table class="table table-striped table-bordered" id="tbl-process-control">
+                        <thead>
+                            <tr class="table-sort">
+                                <th class="no-sort"><a href="#">ID</a></th>
+                                <th sort-key="PROCESSSTATUS"><a href="#">Status</a></th>
+                                <th sort-key="CONTEXTPATH"><a href="#">Site</a></th>
+                                <th sort-key="PROCESSDEFINITIONNAME"><a href="#">Definition</a></th>
+                                <th sort-key="TASKITEMTITLE"><a href="#">Process</a></th>
+                                <th sort-key="ORIGINATOR"><a href="#">Originator</a></th>
+                                <th sort-key="CREATIONDATE"><a href="#">Created</a></th>
+                                <th sort-key="COMPLETIONDATE"><a href="#">Completed</a></th>
+                                <th sort-key="DURATION"><a href="#">Days</a></th>
+                                <th sort-key="OVERDUE"><a href="#">Due on</a></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+						<tr>
+						<td>12</td>
+						<td>Completed</td>
+						<td>/Path</td>
+						<td>Definition</td>
+						<td>Title</td>
+						<td>Org</td>
+						<td>03/12/2014</td>
+						<td>03/12/2014</td>
+						<td>24</td>
+						<td>No</td>
+						</tr>
+						<tr>
+						<td>12</td>
+						<td>Completed</td>
+						<td>/Path</td>
+						<td>Definition</td>
+						<td>Title</td>
+						<td>Org</td>
+						<td>03/12/2014</td>
+						<td>03/12/2014</td>
+						<td>24</td>
+						<td>No</td>
+						</tr>
+						<tr>
+						<td>12</td>
+						<td>Completed</td>
+						<td>/Path</td>
+						<td>Definition</td>
+						<td>Title</td>
+						<td>Org</td>
+						<td>03/12/2014</td>
+						<td>03/12/2014</td>
+						<td>24</td>
+						<td>No</td>
+						</tr>
+						<tr>
+						<td>12</td>
+						<td>Completed</td>
+						<td>/Path</td>
+						<td>Definition</td>
+						<td>Title</td>
+						<td>Org</td>
+						<td>03/12/2014</td>
+						<td>03/12/2014</td>
+						<td>24</td>
+						<td>No</td>
+						</tr>
+						</tbody>
+                    </table>
+</div>
+<script src="jquery.min.js"></script>
+<script src="TableSorter.js"></script>
+<script>
+$(document).ready(function(){
+	$('#tbl-process-control').applySorting(function (event, data) {
+
+		alert(data.SortKey);
+		alert(data.SortOrder);
+		return false;
+	});
+});
+</script>
+</body>
+
+</html>
